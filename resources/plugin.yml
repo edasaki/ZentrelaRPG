@@ -1,0 +1,7 @@
+name: SakiRPG
+main: com.edasaki.rpg.SakiRPG
+version: 0.1
+description: Zentrela RPG.
+author: Edasaki
+depends: [Votifier, SakiCore]
+commands:

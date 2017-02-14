@@ -1,0 +1,29 @@
+package com.edasaki.rpg.commands.beta;
+
+import org.bukkit.command.CommandSender;
+import org.bukkit.entity.Player;
+
+import com.edasaki.rpg.PlayerDataRPG;
+import com.edasaki.rpg.commands.RPGAbstractCommand;
+import com.edasaki.rpg.particles.ParticleManager;
+
+public class EffectsCommand extends RPGAbstractCommand {
+
+    public EffectsCommand(String... commandNames) {
+        super(commandNames);
+    }
+
+    @Override
+    public void execute(CommandSender sender, String[] args) {
+    }
+
+    @Override
+    public void executePlayer(Player p, PlayerDataRPG pd, String[] args) {
+        ParticleManager.showMenu(p, pd);
+    }
+
+    @Override
+    public void executeConsole(CommandSender sender, String[] args) {
+    }
+
+}
