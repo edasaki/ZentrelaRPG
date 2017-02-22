@@ -5,6 +5,8 @@ See [releases](https://github.com/edasaki/ZentrelaRPG/releases) for the last wor
 
 No support provided for any code - the plugin is being released because I have no plans to work on any other Minecraft related things.
 
+Note: Votifier does not have a maven repo - you will have to add it to a local repo to get it to work with maven. See pom.xml for an example of how I did it.
+
 Completed features include:
 - NPC Shops
 - Configuration-based quest system
