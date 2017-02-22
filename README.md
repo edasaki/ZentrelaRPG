@@ -3,6 +3,10 @@ RPG plugin for the Zentrela Minecraft server.
 
 See [releases](https://github.com/edasaki/ZentrelaRPG/releases) for the last working build. You will likely need to figure out how to build it from source yourself if you plan to ever add new features. You will certainly need to build from source if you want any sort of saving (SQL details are in ZentrelaCore and hardcoded).
 
+Zentrela Core required: [https://github.com/edasaki/ZentrelaCore](https://github.com/edasaki/ZentrelaCore)
+
+Project built in Eclipse with Maven plugin.
+
 No support provided for any code - the plugin is being released because I have no plans to work on any other Minecraft related things.
 
 Note: Votifier does not have a maven repo - you will have to add it to a local repo to get it to work with maven. See pom.xml for an example of how I did it.
