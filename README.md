@@ -7,7 +7,7 @@ Zentrela Core required: [https://github.com/edasaki/ZentrelaCore](https://github
 
 Project built in Eclipse with Maven plugin.
 
-No support provided for any code - the plugin is being released because I have no plans to work on any other Minecraft related things.
+### No support provided for any code - the plugin is being released because I have no plans to work on any Minecraft-related things in the future. Please don't ask me how to install it / set it up. You can figure it out yourself, I believe in you!!!
 
 Note: Votifier does not have a maven repo - you will have to add it to a local repo to get it to work with maven. See pom.xml for an example of how I did it.
 
